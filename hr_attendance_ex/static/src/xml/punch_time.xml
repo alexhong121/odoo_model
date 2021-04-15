@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xml:space="preserve">
+    <t t-name="hr_attendance_extend_punch_time">
+        <div class="mdc-tab-bar" role="tablist">
+            <div class="mdc-tab-scroller">
+                <div class="mdc-tab-scroller__scroll-area">
+                    <div class="mdc-tab-scroller__scroll-content">
+                        <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" page='1.html'>
+                            <span class="mdc-tab__content">
+                            <span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+                            <span class="mdc-tab__text-label">正常班打卡</span>
+                            </span>
+                            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                            </span>
+                            <span class="mdc-tab__ripple"></span>
+                        </button>
+                        <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0"  page='2.html'>
+                            <span class="mdc-tab__content">
+                                <span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+                                <span class="mdc-tab__text-label">加班打卡</span>
+                            </span>
+                            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                            </span>
+                            <span class="mdc-tab__ripple"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <t t-call="tab_bar-page"/>
+        </div>
+    </t>
+    <t t-name="tab_bar-page">
+        <div class="tab_bar-page">
+            <div class="content active" id="1.html">
+                    <button class="mdc-button mdc-button--raised cus-button">
+                        <span class="mdc-tab__text-label cus_button_text">hihi</span>
+                        <span class="mdc-tab__text-label">上班打卡</span>
+                    </button>
+                <t t-call="hr_attendance_extend_amap"/>
+            </div>
+            <div class="content" id="2.html">
+                <div class="punch_time">
+                    <button class="mdc-button mdc-button--raised cus-button">
+                        <span class="mdc-tab__text-label cus_button_text">hihi</span>
+                        <span class="mdc-tab__text-label">加班打卡</span>
+                    </button>
+                    <t t-call="hr_attendance_extend_amap"/>
+                </div>
+            </div>
+        </div>
+    </t>
+</template>

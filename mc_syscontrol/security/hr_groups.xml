@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+
+<!--    <record id="group_hr_reader" model="res.groups">-->
+<!--        <field name="name">Reader</field>-->
+<!--        <field name="comment">only read employee and department</field>-->
+
+<!--    </record>-->
+
+</odoo>

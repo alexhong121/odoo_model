@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+        <!-- 引入head css js 檔案 -->
+        <template id="assets_backend" name="Backend Theme" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/comparison_table.js"/>
+                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/my_attendances.js"/>
+                <!--                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/websocket.js"/>-->
+                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/amap.js"/>
+                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/gmaps.js"/>
+
+
+                <link rel="stylesheet" href="/hr_attendance_extend/static/src/scss/material-components-web.min.css"/>
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/material-components-web.min.js"/>
+                <script type="application/javascript" src="/hr_attendance_extend/static/src/js/punch_time.js"/>
+                <link rel="stylesheet" href="/hr_attendance_extend/static/src/scss/style.scss"/>
+
+            </xpath>
+        </template>
+    </data>
+</odoo>

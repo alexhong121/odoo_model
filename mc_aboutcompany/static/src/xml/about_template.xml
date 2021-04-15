@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<template>
+    <t t-name="about_page">
+        <t t-call="about_company"/>
+        <div class="o_cannot_create o_view_controller">
+            <div class="o_kanban_view o_modules_kanban o_kanban_ungrouped">
+                <t t-foreach="widget.data" t-as='datas'>
+                    <div class="oe_module_vignette o_kanban_record">
+                        <img t-att-src="datas.icon" class="oe_module_icon" alt="Icon"/>
+                        <div class="oe_module_desc">
+                            <h4 class="o_kanban_record_title">
+                                <t t-esc="datas.shortdesc"/>&amp;nbsp;
+                            </h4>
+                        </div>
+                        <p class="oe_aboutCompany_summary">
+                            <t t-esc="datas.summary"/>
+                        </p>
+                        <div class="oe_aboutCompany_state">
+                            <t t-esc="datas.state"/>
+                        </div>
+
+                    </div>
+                </t>
+            </div>
+        </div>
+    </t>
+
+    <t t-name="about_company">
+        <div class="about_context">
+            <h1>Micorconverge Technology CO.,LTD</h1>
+            <br/>
+            <h3>
+                Copyright 2019 The Micorconverge Company Ltd. All rights reserved.
+            </h3>
+        </div>
+    </t>
+</template>

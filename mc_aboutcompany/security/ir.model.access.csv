@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mc_aboutconpany_mc_aboutconpany,mc_aboutconpany.user,model_mc_aboutcompany,group_AboutCompany,1,0,0,0
+access_mc_aboutconpany_mc_aboutconpany,mc_aboutconpany.AboutCompany,model_mc_aboutcompany,group_AboutCompany,1,1,1,1
+access_mc_aboutconpany_mc_aboutconpany,mc_aboutconpany.ir_module_module,base.model_ir_module_module,base.group_user,1,1,1,1
+
+

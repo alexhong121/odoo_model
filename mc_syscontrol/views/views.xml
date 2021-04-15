@@ -1,0 +1,226 @@
+<odoo>
+    <data>
+
+        <!-- apps kanban 關閉 "了解更多" "其他功能選項" -->
+        <!-- <record id="apps_kanban_theme" model="ir.ui.view">
+          <field name="name">kanban_theme</field>
+          <field name="model">ir.module.module</field>
+          <field name="inherit_id" ref="base.module_view_kanban"/>
+          <field name="arch" type="xml">
+            <xpath expr="//a[@class='btn btn-sm btn-secondary float-right']" position='replace'>
+              <span></span>
+            </xpath>
+            <xpath expr="//a[@class='dropdown-toggle o-no-caret btn']" position='replace'>
+              <span></span>
+            </xpath>
+          </field>
+        </record> -->
+
+        <!-- 關閉"員工"的設定 -->
+        <!--        <record id="hr_res_config_settings_view_form_Theme" model="ir.ui.view">-->
+        <!--            <field name="name">res.config.settings.view.form.inherit.hr.theme</field>-->
+        <!--            <field name="model">res.config.settings</field>-->
+        <!--            <field name="priority" eval="70"/>-->
+        <!--            <field name="inherit_id" ref="hr.res_config_settings_view_form"/>-->
+        <!--            <field name="arch" type="xml">-->
+        <!--                <xpath expr="//div[hasclass('app_settings_block')]" position="replace">-->
+        <!--                    <span></span>-->
+        <!--                </xpath>-->
+        <!--            </field>-->
+        <!--        </record>-->
+
+        <!-- 關閉"個人設定""通知管理" -->
+        <record id="view_users_form_simple_modif_mail_Theme" model="ir.ui.view">
+            <field name="name">res.users.preferences.form.mail_Theme</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="mail.view_users_form_simple_modif_mail"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='notification_type']" position="replace">
+                    <span></span>
+                </xpath>
+            </field>
+
+        </record>
+        <!-- hr.view.xml  -->
+
+        <record id="view_employee_form_Theme" model="ir.ui.view">
+            <field name="name">hr.view.employee.form.Theme</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <!-- "員工"關閉下方"通知" -->
+                <!--                <xpath expr="//div[hasclass('oe_chatter')]" position="replace">-->
+                <!--                    <span></span>-->
+                <!--                </xpath>-->
+                <!--                &lt;!&ndash; "員工"關閉下方"部份時間" &ndash;&gt;-->
+                <!--                <xpath expr="//field[@name='category_ids']" position="replace">-->
+                <!--                    <span></span>-->
+                <!--                </xpath>-->
+                <!-- "員工"關閉下方"教練""工作時間""時區" -->
+                <!--                <xpath expr="//field[@name='coach_id']" position="replace">-->
+                <!--                    <span></span>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='resource_calendar_id']" position="replace">-->
+                <!--                    <span></span>-->
+                <!--                </xpath>-->
+                <!--                <xpath expr="//field[@name='tz']" position="replace">-->
+                <!--                    <span></span>-->
+                <!--                </xpath>-->
+                <!-- "員工""個人隱私"關閉下方"員工文檔url" -->
+                <xpath expr="//field[@name='google_drive_link']" position="replace">
+                    <span></span>
+                </xpath>
+                <!-- "員工""個人隱私"關閉下方"知識管理-首頁-工作" -->
+                <xpath expr="//field[@name='km_home_work']" position="replace">
+                    <span></span>
+                </xpath>
+            </field>
+        </record>
+
+
+        <!-- res_company_form.xml -->
+
+        <!--        <record id="view_company_form_Theme" model="ir.ui.view">-->
+        <!--            <field name="name">view.company.form.theme</field>-->
+        <!--            <field name="model">res.company</field>-->
+        <!--            <field name="inherit_id" ref="base.view_company_form"/>-->
+        <!--            <field name="arch" type="xml">-->
+        <!--                &lt;!&ndash; "公司設定""一般信息"關閉下方"公司註冊" &ndash;&gt;-->
+        <!--                <xpath expr="//field[@name='company_registry']" position="replace">-->
+        <!--                    <span></span>-->
+        <!--                </xpath>-->
+        <!--            </field>-->
+        <!--        </record>-->
+
+        <!-- Update Preferences form !-->
+        <!-- /home/alex/MicroConverge/odoo/addons/mail/views/res_users_views.xml -->
+
+        <!-- hr.department -->
+        <!--        <record id="hr_department_form_Theme" model="ir.ui.view">-->
+        <!--            <field name="name">hr.department.form.theme</field>-->
+        <!--            <field name="model">hr.department</field>-->
+        <!--            <field name="inherit_id" ref="hr.view_department_form"/>-->
+        <!--            <field name="arch" type="xml">-->
+        <!--                &lt;!&ndash; "員工部門"關閉下方"通知" &ndash;&gt;-->
+        <!--                <xpath expr="//div[hasclass('oe_chatter')]" position="replace">-->
+        <!--                    <span></span>-->
+        <!--                </xpath>-->
+        <!--            </field>-->
+        <!--        </record>-->
+
+
+        <!--        advancedSetting-->
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form</field>
+            <field name="model">mc.res.config.settings</field>
+            <field name="arch" type="xml">
+                <form string="Settings" class="oe_form_configuration o_base_settings" js_class="base_settings">
+                    <div class="o_control_panel">
+                        <div class="o_panel">
+                            <div class="title h2 mb0 mt4 text-muted d-none d-md-block">Settings</div>
+                            <div class="o_setting_search">
+                                <input type="text" class="searchInput" placeholder="Search..."/>
+                                <span class="searchIcon">
+                                    <i class="fa fa-search" role="img" aria-label="Search" title="Search"/>
+                                </span>
+                            </div>
+                        </div>
+                        <header>
+                            <button string="Save" type="object" name="execute" class="oe_highlight"/>
+                            <button string="Discard" type="object" name="cancel" special="cancel"/>
+                        </header>
+                    </div>
+                    <div class="o_setting_container">
+                        <div class="settings_tab"/>
+                        <div class="settings">
+                            <div class="notFound o_hidden">No Record Found</div>
+                        </div>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="res_config_settings_view_form_advancedSetting" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.advancedSetting</field>
+            <field name="model">mc.res.config.settings</field>
+            <field name="priority" eval="70"/>
+            <field name="inherit_id" ref="mc_syscontrol.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="advancedSetting" string="advancedSetting"
+                         data-key="mc_syscontrol" groups="hr.group_hr_manager">
+                        <div id="business_documents">
+                            <h2>Business Documents</h2>
+                            <div class="row mt16 o_settings_container">
+                                <div class="col-12 col-lg-6 o_setting_box">
+                                    <div class="o_setting_right_pane">
+                                        <span class="o_form_label">Format</span>
+                                        <span class="fa fa-lg fa-building-o"
+                                              title="Values set here are company-specific."
+                                              aria-label="Values set here are company-specific."
+                                              groups="base.group_multi_company" role="img"/>
+                                        <div class="text-muted">
+                                            Set the paper format of printed documents
+                                        </div>
+                                        <div class="content-group">
+                                            <div class="mt16 row">
+                                                <label for="paperformat_id" string="Format"
+                                                       class="col-3 col-lg-3 o_light_label"/>
+                                                <field name="paperformat_id" class="oe_inline" required="1"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 o_setting_box">
+                                    <div class="o_setting_right_pane">
+                                        <span class="o_form_label">Document Template</span>
+                                        <span class="fa fa-lg fa-building-o"
+                                              title="Values set here are company-specific."
+                                              aria-label="Values set here are company-specific."
+                                              groups="base.group_multi_company" role="img"/>
+                                        <div class="text-muted">
+                                            Choose your document's header and footer layout
+                                        </div>
+                                        <div class="content-group">
+                                            <div class="mt16" groups="base.group_no_one">
+                                                <label for="external_report_layout_id" string="Template"
+                                                       class="col-3 col-lg-3 o_light_label"/>
+                                                <field name="external_report_layout_id" domain="[('type','=', 'qweb')]"
+                                                       class="oe_inline"/>
+                                            </div>
+                                            <div class="mt16">
+                                                <button name="change_report_template" string="Change Document Template"
+                                                        type="object" class="oe_link" icon="fa-arrow-right"/>
+                                                <button name="edit_external_header" string="Edit Layout" type="object"
+                                                        class="oe_link" groups="base.group_no_one"/>
+                                                <button name="%(web.action_report_externalpreview)d"
+                                                        string="Preview Document" type="action" class="oe_link"
+                                                        groups="base.group_no_one"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="hr_config_advancedSetting_action" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">mc.res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'mc_syscontrol'}</field>
+        </record>
+
+        <record id="custom_home_page" model="ir.actions.client">
+            <field name="name">Home Page</field>
+            <field name="tag">mc_HomePage</field>
+            <field name="target">current</field>
+        </record>
+
+    </data>
+</odoo>

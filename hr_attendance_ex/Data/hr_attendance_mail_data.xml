@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="mail_act_replenishment_approval" model="mail.activity.type">
+            <field name="name">Replenishments Approval</field>
+            <field name="icon">fa-sun-o</field>
+            <field name="res_model_id" ref="model_hr_replenishment"/>
+        </record>
+        <record id="mail_act_replenishment_second_approval" model="mail.activity.type">
+            <field name="name">Replenishments Second Approve</field>
+            <field name="icon">fa-sun-o</field>
+            <field name="res_model_id" ref="model_hr_replenishment"/>
+        </record>
+        <record id="mt_replenishment_approved" model="mail.message.subtype">
+            <field name="name">Approved</field>
+            <field name="res_model">hr.replenishment</field>
+            <field name="description">Request approved</field>
+        </record>
+        <record id="mt_replenishment_refused" model="mail.message.subtype">
+            <field name="name">Refused</field>
+            <field name="res_model">hr.replenishment</field>
+            <field name="default" eval="False"/>
+            <field name="description">Request refused</field>
+        </record>
+    </data>
+</odoo>

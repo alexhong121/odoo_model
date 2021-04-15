@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <!-- 關閉右上角"通知訊息" -->
+    <t t-extend="mail.systray.MessagingMenu">
+        <t t-jquery="a.dropdown-toggle,a.o-no-caret" t-operation="replace">
+            <span style="display:none;"></span>
+        </t>
+    </t>
+    <!-- 關閉右上角"通知通知" -->
+<!--    <t t-extend="mail.systray.ActivityMenu">-->
+<!--        <t t-jquery="a.dropdown-toggle,a.o-no-caret" t-operation="replace">-->
+<!--            <span style="display:none;"></span>-->
+<!--        </t>-->
+<!--    </t>-->
+</templates>
+

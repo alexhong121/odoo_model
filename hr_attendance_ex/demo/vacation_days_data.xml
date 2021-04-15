@@ -1,0 +1,156 @@
+<odoo>
+    <data >
+        <record id="object0" model="vacation.days.comparison">
+            <field name="seniority">6個月至未滿1年</field>
+            <field name="seniority_val">0</field>
+            <field name="value">3</field>
+        </record>
+        <record id="object1" model="vacation.days.comparison">
+            <field name="seniority">滿第1年</field>
+            <field name="seniority_val">1</field>
+
+            <field name="value">7</field>
+        </record>
+        <record id="object2" model="vacation.days.comparison">
+            <field name="seniority">滿第2年</field>
+            <field name="seniority_val">2</field>
+
+            <field name="value">10</field>
+        </record>
+        <record id="object3" model="vacation.days.comparison">
+            <field name="seniority">滿第3年</field>
+            <field name="seniority_val">3</field>
+
+            <field name="value">14</field>
+        </record>
+        <record id="object4" model="vacation.days.comparison">
+            <field name="seniority">滿第4年</field>
+            <field name="seniority_val">4</field>
+
+            <field name="value">14</field>
+        </record>
+        <record id="object5" model="vacation.days.comparison">
+            <field name="seniority">滿第5年</field>
+            <field name="seniority_val">5</field>
+
+            <field name="value">15</field>
+        </record>
+        <record id="object6" model="vacation.days.comparison">
+            <field name="seniority">滿第6年</field>
+            <field name="seniority_val">6</field>
+
+            <field name="value">15</field>
+        </record>
+        <record id="object7" model="vacation.days.comparison">
+            <field name="seniority">滿第7年</field>
+            <field name="seniority_val">7</field>
+
+            <field name="value">15</field>
+        </record>
+        <record id="object8" model="vacation.days.comparison">
+            <field name="seniority">滿第8年</field>
+            <field name="seniority_val">8</field>
+
+            <field name="value">15</field>
+        </record>
+        <record id="object9" model="vacation.days.comparison">
+            <field name="seniority">滿第9年</field>
+            <field name="seniority_val">9</field>
+
+            <field name="value">15</field>
+        </record>
+        <record id="object10" model="vacation.days.comparison">
+            <field name="seniority">滿第10年</field>
+            <field name="seniority_val">10</field>
+
+            <field name="value">16</field>
+        </record>
+        <record id="object11" model="vacation.days.comparison">
+            <field name="seniority">滿第11年</field>
+            <field name="seniority_val">11</field>
+
+            <field name="value">17</field>
+        </record>
+        <record id="object12" model="vacation.days.comparison">
+            <field name="seniority">滿第12年</field>
+            <field name="seniority_val">12</field>
+
+            <field name="value">18</field>
+        </record>
+        <record id="object13" model="vacation.days.comparison">
+            <field name="seniority">滿第13年</field>
+            <field name="seniority_val">13</field>
+
+            <field name="value">19</field>
+        </record>
+        <record id="object14" model="vacation.days.comparison">
+            <field name="seniority">滿第14年</field>
+            <field name="seniority_val">14</field>
+
+            <field name="value">20</field>
+        </record>
+        <record id="object15" model="vacation.days.comparison">
+            <field name="seniority">滿第15年</field>
+            <field name="seniority_val">15</field>
+
+            <field name="value">21</field>
+        </record>
+        <record id="object16" model="vacation.days.comparison">
+            <field name="seniority">滿第16年</field>
+            <field name="seniority_val">16</field>
+
+            <field name="value">22</field>
+        </record>
+        <record id="object17" model="vacation.days.comparison">
+            <field name="seniority">滿第17年</field>
+            <field name="seniority_val">17</field>
+
+            <field name="value">23</field>
+        </record>
+        <record id="object18" model="vacation.days.comparison">
+            <field name="seniority">滿第18年</field>
+            <field name="seniority_val">18</field>
+            <field name="value">24</field>
+        </record>
+        <record id="object19" model="vacation.days.comparison">
+            <field name="seniority">滿第19年</field>
+            <field name="seniority_val">19</field>
+
+            <field name="value">25</field>
+        </record>
+        <record id="object20" model="vacation.days.comparison">
+            <field name="seniority">滿第20年</field>
+            <field name="seniority_val">20</field>
+
+            <field name="value">26</field>
+        </record>
+        <record id="object21" model="vacation.days.comparison">
+            <field name="seniority">滿第21年</field>
+            <field name="seniority_val">21</field>
+            <field name="value">27</field>
+        </record>
+        <record id="object22" model="vacation.days.comparison">
+            <field name="seniority">滿第22年</field>
+            <field name="seniority_val">22</field>
+            <field name="value">28</field>
+        </record>
+        <record id="object23" model="vacation.days.comparison">
+            <field name="seniority">滿第23年</field>
+            <field name="seniority_val">23</field>
+
+            <field name="value">29</field>
+        </record>
+        <record id="object24" model="vacation.days.comparison">
+            <field name="seniority">滿第24年</field>
+            <field name="seniority_val">24</field>
+
+            <field name="value">30</field>
+        </record>
+        <record id="object26" model="vacation.days.comparison">
+            <field name="seniority">滿第25年</field>
+            <field name="seniority_val">25</field>
+
+            <field name="value">30</field>
+        </record>
+    </data>
+</odoo>

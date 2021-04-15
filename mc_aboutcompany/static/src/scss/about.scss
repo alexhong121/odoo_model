@@ -1,0 +1,25 @@
+.about_context {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.oe_aboutCompany_summary{
+  padding-top: 5px;
+  padding-left: 10px;
+  color: #b6b4b5;
+    /* 第一步：先禁止斷行 */
+  white-space: nowrap;
+
+  /* 第二步：超過部份隱藏 */
+  overflow: hidden;
+
+  /* 第三部：表示文字溢出時，顯示省略符號(...) */
+  text-overflow: ellipsis;
+
+}
+.oe_aboutCompany_state {
+  padding-left: 80px;
+  color: #b6b4b5;
+
+}

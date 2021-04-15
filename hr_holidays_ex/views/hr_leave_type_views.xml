@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+        <record id="edit_holiday_status_form" model="ir.ui.view">
+            <field name="name">hr_holidays_extend.hr.leave.type.form</field>
+            <field name="model">hr.leave.type</field>
+            <field name="inherit_id" ref="hr_holidays.edit_holiday_status_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='time_type']" position="after">
+                    <field name="validity_interval_type"/>
+                </xpath>
+                <xpath expr="//field[@name='validity_start']" position="before">
+                    <field name="validity_type" invisible="1"/>
+                    <field name="validity_type_display"/>
+                    <field name="validity_start_year"
+                           attrs="{'invisible': [('validity_type', '=','direct_setting')]}"/>
+                    <!--                    <field name="validity_start_year"-->
+                    <!--                           attrs="{'invisible': [('validity_type', '=','direct_setting')]}"/>-->
+                </xpath>
+                <xpath expr="//group[@name='validity']" position="attributes">
+                    <attribute name="attrs">{'invisible':True}</attribute>
+                </xpath>
+                <xpath expr="//field[@name='validity_start']" position="attributes">
+                    <attribute name="attrs">{'invisible': [('validity_type', '!=','direct_setting')]}</attribute>
+                </xpath>
+                <xpath expr="//field[@name='validity_stop']" position="attributes">
+
+                    <attribute name="attrs">{'invisible': [('validity_type', '!=','direct_setting')]}</attribute>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

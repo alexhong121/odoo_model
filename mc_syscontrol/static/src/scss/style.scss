@@ -1,0 +1,39 @@
+// // 關閉右上角 個人帳號選單
+// div.dropdown-menu-right{
+//     .dropdown-item:nth-child(1),.dropdown-item:nth-child(2),.dropdown-item:nth-child(6 ) {
+//         display: none;
+//     }
+//     .d-md-inline-block{
+//         display: none !important;
+//     }
+//     .dropdown-divider{
+//       display: none;
+//     }
+// }
+
+//開閉設定 apps 區塊
+.o_web_settings_dashboard_apps{
+    display: none;
+
+}
+.o_web_settings_dashboard_translations {
+    margin-top: 0 !important;
+}
+
+//手機屏蔽
+#stop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+
+.o_menu_apps .dropdown-menu.show {
+    z-index: 10 !important;
+}
+.o_content .bg{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,69 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="tekau_web.product_list">
+      <field name="name">Products list</field>
+      <field name="model">tekau_products</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+          <field name="image"/>
+        </tree>
+      </field>
+    </record>
+        <!-- explicit form view definition -->
+    <record model="ir.ui.view" id="tekau_web.product_form">
+      <field name="name">Products form</field>
+      <field name="model">tekau_products</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <field name="name"/>
+            <field name="type"/>
+            <field name="description"/>
+            <field name="value"/>
+            <field name="image_filename" invisible="1"/>
+            <field widget="binary" height="64" name="dimensions" filename="image_filename" />
+            <field name="image" widget="image"/>
+
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="tekau_web.product_action_window">
+      <field name="name">Products window</field>
+      <field name="res_model">tekau_products</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <!-- server action to the one above -->
+<!--    <record model="ir.actions.server" id="tekau_web.action_server">-->
+<!--      <field name="name">TekauWEB server</field>-->
+<!--      <field name="model_id" ref="model_tekau_web_tekau_web"/>-->
+<!--      <field name="state">code</field>-->
+<!--      <field name="code">-->
+<!--        action = {-->
+<!--          "type": "ir.actions.act_window",-->
+<!--          "view_mode": "tree,form",-->
+<!--          "res_model": self._name,-->
+<!--        }-->
+<!--      </field>-->
+<!--    </record>-->
+
+    <!-- Top menu item -->
+
+<!--    <menuitem name="TekauWEB" id="tekau_web.menu_root"/>-->
+
+    <!-- menu categories -->
+<!--    <menuitem name="Factory" id="tekau_web.menu_factory" parent="tekau_web.menu_root"/>-->
+    <menuitem name="Product" id="tekau_web.menu_contact" parent="tekau_web.menu_root" action="tekau_web.product_action_window"/>
+<!--    <menuitem name="Menu 2" id="tekau_web.menu_2" parent="tekau_web.menu_root"/>-->
+    <!-- actions -->
+<!--    <menuitem name="List" id="tekau_web.menu_1_list" parent="tekau_web.menu_factory"-->
+<!--              action="tekau_web.action_window"/>-->
+<!--    <menuitem name="Server to list" id="tekau_web" parent="tekau_web.menu_2"-->
+<!--              action="tekau_web.action_server"/>-->
+  </data>
+</odoo>

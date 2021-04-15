@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+    <!-- views -->
+
+
+
+    <record id="hr_punch_card_requests_view_form" model="ir.ui.view">
+        <field name="name">hr.punchcardrequests.form</field>
+        <field name="model">hr.pubchcardrequests</field>
+        <field name="arch" type="xml">
+            <form string="Punchcard Requests">
+                <field name="can_reset" invisible="1"/>
+                <field name="can_approve" invisible="1"/>
+                <header>
+                    <button string="Confirm" name="action_confirm" states="draft" type="object" class="oe_highlight"/>
+                    <button string="Approve" name="action_approve" type="object" class="oe_highlight" />
+                    <button string="Validate" name="action_validate" states="validate1" type="object"  class="oe_highlight"/>
+                    <button string="Refuse" name="action_refuse"  type="object" />
+                    <button string="Reset to Draft" name="action_draft" type="object" />
+                    <field name="state" widget="statusbar" statusbar_visible="confirm,validate"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="employee_id"/>
+                        <field name="department_id" invisible="1"/>
+                        <field name="date_card"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="hr_punch_card_requests_view_tree" model="ir.ui.view">
+        <field name="name">hr.punchcardrequests.tree</field>
+        <field name="model">hr.pubchcardrequests</field>
+        <field name="arch" type="xml">
+            <tree string="Punchcard Requests">
+                <field name="employee_id"/>
+                <field name="department_id" invisible="1"/>
+                <field name="manager_id" invisible="1"/>
+                <field name="user_id" invisible="1"/>
+                <field name="date_card"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="hr_punch_card_requests_view_filter" model="ir.ui.view">
+        <field name="name">hr_punchcardrequests_view_filter</field>
+        <field name="model">hr.pubchcardrequests</field>
+        <field name="arch" type="xml">
+            <search string="Hr Punchcard Requests Search">
+                <field name="employee_id"/>
+                <field name="department_id"/>
+                <filter string="My Punchcard Requests" name="mypubchcardrequests" domain="[('employee_id.user_id.id', '=', uid)]" />
+                <separator/>
+                <filter name="date_card_filter" string="Date Card" date="date_card"/>
+                <group expand="0" string="Group By">
+                    <filter name="employee" string="Employee" context="{'group_by':'employee_id'}"/>
+                    <separator/>
+                    <filter name="groupby_name" string="Date Card" context="{'group_by': 'date_card'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="hr_punch_card_action_new_request" model="ir.actions.act_window">
+        <field name="name">Punch Card Request</field>
+        <field name="res_model">hr.pubchcardrequests</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="search_view_id" ref="hr_punch_card_requests_view_filter" />
+        <!--        <field name="domain">[('user_id', '=', uid)]</field>-->
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new Punch Card request
+            </p>
+        </field>
+    </record>
+
+</odoo>

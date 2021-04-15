@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- 引入head css js 檔案 -->
+        <template id="assets_backend" name="Backend Theme" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/mc_syscontrol/static/src/scss/style.scss"/>
+                <script type="application/javascript" src="/mc_syscontrol/static/src/js/app.js" defer="defer"/>
+                <script type="application/javascript" src="/mc_syscontrol/static/src/js/home_page.js" defer="defer"/>
+
+                <!-- <link rel="stylesheet" href="/backend_theme_v12/static/src/scss/sidebar.scss"/>
+                <script type="application/javascript" src="/backend_theme_v12/static/src/js/sidebar.js"/>
+                <script type="application/javascript" src="/backend_theme_v12/static/src/js/sidebar-toggle.js"/> -->
+            </xpath>
+        </template>
+
+        <!-- web_login 關閉下方　資料庫管理員-->
+        <template id="assets_login_layout" name="Login Theme" inherit_id="web.login_layout">
+            <xpath expr="//div[hasclass('text-center','small','mt-4','pt-3','border-top')]" position="replace">
+                <div></div>
+            </xpath>
+        </template>
+
+        <!-- 關閉 "還沒有帳號？-->
+        <template id="auth_signup.login" inherit_id="web.login" name="Sign up-Reset Password theme">
+            <xpath expr="//button[@type='submit']" position="after">
+                <div class="justify-content-between mt-2 d-flex small">
+                    <!--                    <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">Don't have an account?</a>-->
+                    <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Reset
+                        Password
+                    </a>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- <template id="userMenu" name="userMenu Theme" inherit_id="web.UserMenu.Actions">
+            <xpath expr="//div[@class='dropdown-menu dropdown-menu-right']" position="replace">
+                <div></div>
+            </xpath>
+        </template> -->
+
+        <!-- <xpath expr="//div[@t-attf-class='card border-0 mx-auto mt-5 bg-100 {{login_card_classes}} o_database_list']" position="attributes">
+                   <attribute name="class">col-lg-3 col-md-4 col-sm-4 col-xs-11 o_database_list</attribute>
+                   <attribute name="style"></attribute>
+               </xpath> -->
+
+
+        <!-- <template id="assets_login" inherit_id="web.assets_frontend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/backend/static/src/css/web_login_style.css"/>
+            </xpath>
+        </template>	 -->
+    </data>
+</odoo>

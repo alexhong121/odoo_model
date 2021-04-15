@@ -1,0 +1,1202 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_attendance_extend
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-18 07:53+0000\n"
+"PO-Revision-Date: 2019-12-18 07:53+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:275
+#, python-format
+msgid "%(empl_name)s : %(patch_card)s for %(check_type)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:76
+#, python-format
+msgid "%(empl_name)s from %(check_in)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:90
+#, python-format
+msgid "%(empl_name)s from %(check_in)s to %(check_out)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:83
+#, python-format
+msgid "%(empl_name)s from %(check_out)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:25
+#, python-format
+msgid "(1)\n"
+"            甲勞工於A公司之到職日期為106年2月1日，繼續工作至106年8月1日，因工作年資6個月以上未滿1年，雇主應自106年8月1日至107年1月31日止，給予3天之特別休假；屆期後（107年1月31日）未休之日數，雇主應發給工資。但經勞雇雙方協商遞延至次一年度實施者，於次一年度終結（108年1月31日）或契約終止仍未休之日數，雇主應發給工資。\n"
+"            甲勞工如107年2月1日仍在職，因年資屆滿1年，自107年2月1日至108年1月31日，可另排定特別休假7天。縱若勞工於107年12月31日離職，第1年7天特別休假之請休權利及天數，不受影響；契約終止而未休之日數，雇主應發給工資。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:9
+#, python-format
+msgid "(1) 6個月以上1年未滿者，3日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:30
+#, python-format
+msgid "(2)\n"
+"            乙勞工於B公司之到職日期為104年9月1日，繼續工作至105年8月31日屆滿1年，雇主應自105年9月1日給予第1年7天之特別休假；如勞工於105年10月1日起育嬰留職停薪6個月，並自106年4月1日復職，第1年7天之特別休假請休權利及天數，不受影響。至於第2年之特別休假，因留職停薪期間得不併入工作年資計算，事業單位應於勞工復職後工作，加計留職停薪前之工作年資，合計滿2年之翌日給予特別休假；即雇主應自107年3月1日至108年2月28日止，給予第2年10天之特別休假；屆期後未休之日數，雇主應發給工資。但經勞雇雙方協商遞延至次一年度實施者，於次一年度終結或契約終止仍未休之日數，雇主應發給工資。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:11
+#, python-format
+msgid "(2) 1年以上2年未滿者，7日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:13
+#, python-format
+msgid "(3) 2年以上3年未滿者，10日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:15
+#, python-format
+msgid "(4) 3年以上5年未滿者，每年14日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:17
+#, python-format
+msgid "(5) 5年以上10年未滿者，每年15日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:19
+#, python-format
+msgid "(6) 10年以上者，每1年加給1日，加至30日為止。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:6
+#, python-format
+msgid "1. 採行週年制之特別休假，依所填受僱日期及給假年份計算日數。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:16
+#, python-format
+msgid "100米"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:8
+#, python-format
+msgid "2. 適用勞動基準法之事業單位，依勞動基準法第38條第1項規定，勞工在同一雇主或事業單位，繼續工作滿一定期間者，應依下列規定給予特別休假："
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:19
+#, python-format
+msgid "200米"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:21
+#, python-format
+msgid "3. 勞工之特別休假，因年度終結或契約終止而未休之日數，雇主應發給工資。但年度終結未休之日數，經勞雇雙方協商遞延至次一年度實施者，於次一年度終結或契約終止仍未休之日數，雇主應發給工資。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:23
+#, python-format
+msgid "300米"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:22
+#, python-format
+msgid "4. 依勞動基準法第84條之2規定，勞工工作年資自受僱之日起算。勞工留職停薪期間，得不併入工作年資計算。惟如勞資雙方對於留職停薪期間年資計算另有約定，可從其約定。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:24
+#, python-format
+msgid "5. 範例"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:34
+#, python-format
+msgid "6. 如有勞動基準法適用日期疑問，參閱歷次擴大適用公告，或電洽本機關免付費電話0800085151諮詢。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:35
+#, python-format
+msgid "7. 服務年資與特別休假日數對照表"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.res_config_settings_view_form_themes
+msgid "<i class=\"material-icons\" style=\"margin-left: -4px;font-size:20px\">description</i>"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:341
+#, python-format
+msgid "A replenishment cannot be duplicated."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_needaction
+msgid "Action Needed"
+msgstr "需要採取行動"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__activity_ids
+msgid "Activities"
+msgstr "活動"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__activity_state
+msgid "Activity State"
+msgstr "活動狀態"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+msgid "Add a reason..."
+msgstr "添加原因..."
+
+#. module: hr_attendance_extend
+#: model:ir.ui.menu,name:hr_attendance_extend.hr_replenishment_menu_manager_all
+msgid "All"
+msgstr "全部"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:556
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+#, python-format
+msgid "Approve"
+msgstr "批准"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,state:0
+#: model:mail.message.subtype,name:hr_attendance_extend.mt_replenishment_approved
+msgid "Approved"
+msgstr "已批准"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件計數"
+
+#. module: hr_attendance_extend
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_Replenishment
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_amap
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_gmaps
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_overtime
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_punch_time
+#: model:ir.model,name:hr_attendance_extend.model_hr_attendance
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__attendance_id
+msgid "Attendance"
+msgstr "考勤"
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_base
+msgid "Base"
+msgstr "基數"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,relenishment_type:0
+msgid "By Company"
+msgstr "由公司"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,relenishment_type:0
+msgid "By Department"
+msgstr "部門"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,relenishment_type:0
+msgid "By Employee"
+msgstr "按員工"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__can_approve
+msgid "Can Approve"
+msgstr "能批准"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__can_reset
+msgid "Can reset"
+msgstr "可重置"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,state:0
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_employee.py:57
+#: code:addons/hr_attendance_extend/models/hr_employee.py:86
+#, python-format
+msgid "Cannot perform check in or check out on multiple employees."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_employee.py:73
+#: code:addons/hr_attendance_extend/models/hr_employee.py:100
+#, python-format
+msgid "Cannot perform check out on %(empl_name)s, could not find corresponding check in. Your attendances have probably been modified manually by human resources."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__check_in
+msgid "Check In"
+msgstr "簽到"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__check_time
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__check_time_display
+msgid "Check time"
+msgstr "打卡時間"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__check_type
+msgid "Check type"
+msgstr "簽到/簽退"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,check_type:0
+msgid "Check-in"
+msgstr "簽到"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,check_type:0
+msgid "Check-out"
+msgstr "簽退"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/sql_ser_config.py:69
+#, python-format
+msgid "Choose"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:27
+#, python-format
+msgid "Click to"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置設定"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+msgid "Confirm"
+msgstr "確認"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/sql_ser_config.py:43
+#, python-format
+msgid "Connection Test Succeeded!"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.actions.act_window,help:hr_attendance_extend.hr_replenishment_action
+msgid "Create a new Replenishment"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.actions.act_window,help:hr_attendance_extend.hr_replenishment_action_approve
+msgid "Create a new replenishment"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__create_uid
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__create_uid
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__create_uid
+msgid "Created by"
+msgstr "創建者"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__create_date
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__create_date
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__create_date
+msgid "Created on"
+msgstr "創建時間"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__date
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+msgid "Date"
+msgstr "日期   "
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_view_filter
+msgid "Date Punch"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "Delay"
+msgstr "遲到"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "Delay,Leave early"
+msgstr "遲到,早退"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "Delay,No check-out"
+msgstr "遲到,未刷卡"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__department_id
+msgid "Department"
+msgstr "部門"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__punch_note
+msgid "Description"
+msgstr "描述"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__display_name
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__display_name
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_hr_employee
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_view_filter
+msgid "Employee"
+msgstr "員工"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__leave_early_time
+msgid "Excused(min)"
+msgstr "早退(分)"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__first_approver_id
+msgid "First Approval"
+msgstr "首次審批"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_follower_ids
+msgid "Followers"
+msgstr "訂閱者"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "關注者(渠道)"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注者(業務夥伴)"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_view_filter
+msgid "Group By"
+msgstr "分組"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__id
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__id
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__message_unread
+msgid "If checked new messages require your attention."
+msgstr "查看是否有需要您留意的新信息。"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果勾選此項，有新消息會提醒您。"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾選此項， 某些信息將會產生傳遞錯誤。"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_is_follower
+msgid "Is Follower"
+msgstr "是訂閱者"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment____last_update
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config____last_update
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__write_uid
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__write_uid
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__write_uid
+msgid "Last Updated by"
+msgstr "最後更新人"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__write_date
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__write_date
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__late_time
+msgid "Late(min)"
+msgstr "遲到(分)"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "Leave early"
+msgstr "早退"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__linked_request_ids
+msgid "Linked Requests"
+msgstr "鏈接申請"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,source:0
+#: selection:hr.replenishment,source:0
+#: selection:hr.replenishment,source_display:0
+msgid "Machine"
+msgstr "卡鐘"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__manager_id
+msgid "Manager"
+msgstr "經理"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_has_error
+msgid "Message Delivery error"
+msgstr "信件傳遞錯誤"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: hr_attendance_extend
+#: model:ir.ui.menu,name:hr_attendance_extend.menu_hr_attendance_replenishment
+msgid "My Attendance"
+msgstr "我的出勤"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_view_filter
+msgid "My Replenishment"
+msgstr "我的補卡單\n"
+""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活動截止日期"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一活動摘要"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活動類型"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "No check-in"
+msgstr "無上班卡"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "No check-in,Leave early"
+msgstr "無上班卡,早退"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "No check-in,No check-out"
+msgstr "無上班卡,無下班卡"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal:0
+#: selection:hr.replenishment,work_abnormal_display:0
+msgid "No check-out"
+msgstr "無下班卡"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_type:0
+#: selection:hr.replenishment,work_type:0
+#: selection:hr.replenishment,work_type_display:0
+msgid "Normal"
+msgstr "正常班"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行動數量"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_has_error_counter
+msgid "Number of error"
+msgstr "錯誤數量"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行動消息的數量"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "發送錯誤的信件數"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未讀消息的數量"
+
+#. module: hr_attendance_extend
+#: selection:sql.config,odbc:0
+msgid "ODBC Driver 17 for SQL Server"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__odbc
+msgid "ODBC 驅動程式"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:487
+#, python-format
+msgid "Only a replenishment Manager can approve its own requests."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:476
+#, python-format
+msgid "Only a replenishment Manager can reset other people leaves."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:480
+#, python-format
+msgid "Only a replenishment Officer or Manager can approve or refuse leave requests."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:498
+#, python-format
+msgid "Only an Leave replenishment can apply the second approval on leave requests."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,activity_state:0
+msgid "Overdue"
+msgstr "逾期"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_type:0
+#: selection:hr.replenishment,work_type:0
+#: selection:hr.replenishment,work_type_display:0
+msgid "Overtime"
+msgstr "加班"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__parent_id
+msgid "Parent"
+msgstr "上級"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__patch_card
+msgid "Patch card"
+msgstr "打卡時間"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,activity_state:0
+msgid "Planned"
+msgstr "已安排"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__date_punch
+msgid "Punch time"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:559
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+#, python-format
+msgid "Refuse"
+msgstr "退回"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,state:0
+#: model:mail.message.subtype,name:hr_attendance_extend.mt_replenishment_refused
+msgid "Refused"
+msgstr "已拒絕"
+
+#. module: hr_attendance_extend
+#: model:ir.actions.act_window,name:hr_attendance_extend.hr_replenishment_action
+#: model:ir.model,name:hr_attendance_extend.model_hr_replenishment
+#: model:ir.ui.menu,name:hr_attendance_extend.menu_hr_attendance_Replenishment
+#: model:ir.ui.menu,name:hr_attendance_extend.menu_open_replenishment_approve
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_view_tree
+msgid "Replenishment"
+msgstr "補卡單"
+
+#. module: hr_attendance_extend
+#: model:ir.actions.act_window,name:hr_attendance_extend.hr_replenishment_action_approve
+msgid "Replenishment Approve"
+msgstr "批準補卡單"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_view_filter
+msgid "Replenishment Search"
+msgstr "收尋補卡單"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:390
+#, python-format
+msgid "Replenishment request must be confirmed (\"To Approve\") in order to approve it."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:401
+#, python-format
+msgid "Replenishment request must be confirmed in order to approve it."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:380
+#, python-format
+msgid "Replenishment request must be in Draft state (\"To Submit\") in order to confirm it."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:364
+#, python-format
+msgid "Replenishment request state must be \"Refused\" or \"To Approve\" in order to be reset to draft."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:mail.activity.type,name:hr_attendance_extend.mail_act_replenishment_approval
+msgid "Replenishments Approval"
+msgstr "批準補卡單\n"
+""
+
+#. module: hr_attendance_extend
+#: model:mail.activity.type,name:hr_attendance_extend.mail_act_replenishment_second_approval
+msgid "Replenishments Second Approve"
+msgstr "二次批準補卡單"
+
+#. module: hr_attendance_extend
+#: model:mail.message.subtype,description:hr_attendance_extend.mt_replenishment_approved
+msgid "Request approved"
+msgstr "請求已批准"
+
+#. module: hr_attendance_extend
+#: model:mail.message.subtype,description:hr_attendance_extend.mt_replenishment_refused
+msgid "Request refused"
+msgstr "申請已拒絕"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+msgid "Reset to Draft"
+msgstr "重置為草稿"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__activity_user_id
+msgid "Responsible User"
+msgstr "責任使用者"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,state:0
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__second_approver_id
+msgid "Second Approval"
+msgstr "二次審批"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__seniority
+msgid "Seniority"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__work_type
+msgid "Shift"
+msgstr "班別"
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:26
+#, python-format
+msgid "Sign in"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:24
+#, python-format
+msgid "Sign out"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__source
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__source
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__source_display
+msgid "Source"
+msgstr "來源"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__state
+msgid "Status"
+msgstr "狀態"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__activity_state
+msgid "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr "根據活動的狀態 \n"
+" 逾期：已經超過截止日期 \n"
+" 現今：活動日期是當天 \n"
+" 計劃：未來的活動。"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__td
+msgid "Td"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__state
+msgid "The status is set to 'To Submit', when a leave request is created.\n"
+"The status is 'To Approve', when leave request is confirmed by user.\n"
+"The status is 'Refused', when leave request is refused by manager.\n"
+"The status is 'Approved', when leave request is approved by manager."
+msgstr "創建休假申請時，狀態設定為「待提交」。\n"
+" 當由使用者確認休假申請時，狀態為「待批准」。\n"
+" 當經理拒絕休假申請時，狀態為「已拒絕」。\n"
+" 當經理批准休假申請時，狀態為「已批准」。"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__first_approver_id
+msgid "This area is automatically filled by the user who validate the leave"
+msgstr "此位置會被自動由審批此休假申請的使用者填寫。"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,help:hr_attendance_extend.field_hr_replenishment__second_approver_id
+msgid "This area is automaticly filled by the user who validate the leave with second level (If Leave type need second validation)"
+msgstr "此位置是由需要在第二層級驗證休假的使用者自動填寫。（如果休假類型需要兩次驗證）"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,state:0
+#: model:ir.ui.menu,name:hr_attendance_extend.menu_hr_replenishment_manager_approve
+msgid "To Approve"
+msgstr "待批准"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,state:0
+msgid "To Submit"
+msgstr "待提交"
+
+#. module: hr_attendance_extend
+#: selection:hr.replenishment,activity_state:0
+msgid "Today"
+msgstr "今日"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_unread
+msgid "Unread Messages"
+msgstr "未讀消息"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未讀消息計數器"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__user_id
+msgid "User"
+msgstr "使用者"
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.hr_replenishment_my_view_form
+msgid "Validate"
+msgstr "審核"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__value
+msgid "Value"
+msgstr "價值"
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:22
+#, python-format
+msgid "Want to check out?"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:30
+#, python-format
+msgid "Warning : Your user should be linked to an employee to use attendance. Please contact your administrator."
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:21
+#, python-format
+msgid "Welcome!"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__work_abnormal
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__work_abnormal
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__work_abnormal_display
+msgid "Work abnormal"
+msgstr "異常狀態"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__work_type
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__work_type_display
+msgid "Work type"
+msgstr "班別"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__working_hours
+msgid "Working hours(min)"
+msgstr "工作時數(分)"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_employee.py:24
+#, python-format
+msgid "Wrong PIN"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__yd
+msgid "Yd"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:336
+#, python-format
+msgid "You cannot delete a replenishment which is in %s state."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:493
+#, python-format
+msgid "You must be either %s's manager or Leave manager to approve this leave"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:28
+#, python-format
+msgid "check in"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:27
+#, python-format
+msgid "check out"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__check_in_issue
+msgid "check_in_issue"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__check_out_issue
+msgid "check_out_issue"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "e.g. 1433"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "e.g. 192.168.x.x"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "e.g. sa"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:10
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:20
+#, python-format
+msgid "favorite"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:38
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:46
+#, python-format
+msgid "hihi"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_replenishment__relenishment_type
+msgid "model"
+msgstr "模式"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/sql_ser_config.py:40
+#, python-format
+msgid "msg"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:59
+#, python-format
+msgid "relenishment"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__relenishment_id
+msgid "replenishment"
+msgstr "補卡單"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_relenishment.py:439
+#, python-format
+msgid "replenishment request must be confirmed or validated in order to refuse it."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_sql_config
+msgid "sql_config"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_vacation_days_comparison
+msgid "vacation days comparison table"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:39
+#, python-format
+msgid "上班打卡"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__server
+msgid "伺服器"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__username
+msgid "使用者名稱"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_employee__due_date
+msgid "到職日"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:27
+#, python-format
+msgid "加班"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:21
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:47
+#, python-format
+msgid "加班打卡"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.res_config_settings_view_form_themes
+msgid "台灣勞工局特休假天數對照表"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__syncing
+msgid "同步中"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__name
+msgid "名稱"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__password
+msgid "密碼"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:11
+#, python-format
+msgid "打卡範圍"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:71
+#, python-format
+msgid "更新表格"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:11
+#, python-format
+msgid "正常班打卡"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "測試連線"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:52
+#, python-format
+msgid "特別休假日數勞工服務年資"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:53
+#, python-format
+msgid "現行規定"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_employee__machine_id
+msgid "考勤機ID"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: sql_constraint:hr.employee:0
+msgid "考勤機ID 編號已經有其他員工使用,不可以重複！"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:5
+#, python-format
+msgid "說明："
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.res_config_settings_view_form_themes
+msgid "資料來源:勞工局網站"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__database
+msgid "資料庫"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: sql_constraint:sql.config:0
+msgid "資料庫同步只能設定一台"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:36
+#, python-format
+msgid "資料最近更新日期："
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__port
+msgid "連接阜"
+msgstr ""
+

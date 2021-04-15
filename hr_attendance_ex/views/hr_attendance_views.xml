@@ -1,0 +1,122 @@
+<odoo>
+    <data>
+
+
+        <!-- views -->
+        <record id="hr_attendance_extend_view_tree" model="ir.ui.view">
+            <field name="name">hr.attendance.extend.tree</field>
+            <field name="model">hr.attendance</field>
+            <field name="inherit_id" ref="hr_attendance.view_attendance_tree"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='check_out']" position="after">
+                    <field name="work_type"/>
+                    <field name="work_abnormal"/>
+                    <field name="source"/>
+                    <field name="late_time"/>
+                    <field name="leave_early_time"/>
+                    <!--                    <field name="working_hours"/>-->
+                    <field name="worked_hours"/>
+                </xpath>
+
+            </field>
+        </record>
+
+        <record id="hr_attendance_extend_view_form" model="ir.ui.view">
+            <field name="name">hr.attendance.extend.form</field>
+            <field name="model">hr.attendance</field>
+            <field name="inherit_id" ref="hr_attendance.hr_attendance_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='check_out']" position="after">
+                    <field name="work_type"/>
+                    <field name="work_abnormal"/>
+                    <field name="source"/>
+                    <field name="late_time"/>
+                    <field name="leave_early_time"/>
+                    <field name="worked_hours"/>
+                </xpath>
+
+                <xpath expr="//group" position="before">
+
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_relenishment" type="object" groups="hr_attendance.group_hr_attendance"
+                                class="oe_stat_button"
+                                icon="fa-archive"
+                                attrs="{'invisible':0}">
+                            <field name="relenishment_id" widget="statinfo"/>
+                        </button>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <!--        <record model="ir.actions.server" id="hr_attendance_action_overtime">-->
+        <!--            <field name="name">Res Partner Server Action</field>-->
+        <!--            <field name="state">code</field>-->
+        <!--            <field name="model_id" ref="model_hr_employee"/>-->
+        <!--            <field name="code">-->
+        <!--                action=model.is_overtime()-->
+        <!--            </field>-->
+        <!--        </record>-->
+        <record id="hr_attendance_action_overtime" model="ir.actions.client">
+            <field name="name">Attendance</field>
+            <field name="tag">hr_attendance_my_overtime</field>
+            <field name="target">current</field>
+        </record>
+        <record id="hr_attendance_action_amap" model="ir.actions.client">
+            <field name="name">Attendance</field>
+            <field name="tag">hr_attendance_extend.amap</field>
+            <field name="target">current</field>
+        </record>
+        <record id="hr_attendance_action_gmaps" model="ir.actions.client">
+            <field name="name">Attendance</field>
+            <field name="tag">hr_attendance_extend.gmaps</field>
+            <field name="target">current</field>
+        </record>
+        <record id="hr_attendance_action_punch_time" model="ir.actions.client">
+            <field name="name">Attendance</field>
+            <field name="tag">hr_attendance_extend.punch_time</field>
+            <field name="target">current</field>
+        </record>
+        <record id="hr_attendance_Replenishment" model="ir.actions.client">
+            <field name="name">Attendance</field>
+            <field name="tag">hr_attendance_extend.Replenishment</field>
+            <field name="target">current</field>
+        </record>
+
+
+        <!--        <menuitem id="menu_hr_attendance_overtime" name="加班" parent="hr_attendance.menu_hr_attendance_root"-->
+        <!--                  sequence="11" groups="hr_attendance.group_hr_attendance"-->
+        <!--                  action="hr_attendance_action_overtime"/>-->
+        <!--        <menuitem id="menu_hr_attendance_ex_amap" name="地圖" parent="hr_attendance.menu_hr_attendance_root"-->
+        <!--                  sequence="12" groups="hr_attendance.group_hr_attendance"-->
+        <!--                  action="hr_attendance_action_amap"/>-->
+
+        <menuitem id="menu_hr_attendance_replenishment" name="My Attendance"
+                  parent="hr_attendance.menu_hr_attendance_root"
+                  sequence="12" groups="hr_attendance.group_hr_attendance_user"/>
+
+
+        <menuitem
+                id="menu_hr_replenishment_manager_approve"
+                name="To Approve"
+                parent="hr_attendance.menu_hr_attendance_manage_attendances"
+                groups="hr_attendance.group_hr_attendance_user,hr_attendance.group_hr_attendance"
+                sequence="26"/>
+        <menuitem
+                id="hr_replenishment_menu_manager_all"
+                name="All"
+                parent="hr_attendance.menu_hr_attendance_manage_attendances"
+                groups="hr_attendance.group_hr_attendance_user,hr_attendance.group_hr_attendance"
+                sequence="27"/>
+
+
+        <!--        <menuitem-->
+        <!--                id="menu_open_employee_replenishment"-->
+        <!--                name="Replenishment"-->
+        <!--                parent="hr_replenishment_menu_manager_all"-->
+        <!--                groups="hr_attendance.group_hr_attendance_user,hr_attendance.group_hr_attendance"-->
+        <!--                action="hr_replenishment_action"-->
+        <!--                sequence="1"/>-->
+    </data>
+</odoo>

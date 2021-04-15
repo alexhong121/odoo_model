@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tekau_web_tekau_factory,tekau_web.tekau_factory,model_tekau_factory,group_tekauweb,1,1,1,1
+access_tekau_web_tekau_products,tekau_web.tekau_products,model_tekau_products,group_tekauweb,1,1,1,1
+access_tekau_web_tekau_contacts,tekau_web.tekau_contacts,model_tekau_contacts,group_tekauweb,1,1,1,1

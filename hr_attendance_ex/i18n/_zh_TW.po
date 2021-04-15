@@ -1,0 +1,637 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_attendance_extend
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-05 03:24+0000\n"
+"PO-Revision-Date: 2019-10-05 03:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:42
+#, python-format
+msgid "%(empl_name)s from %(check_in)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:52
+#, python-format
+msgid "%(empl_name)s from %(check_in)s to %(check_out)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_attendance.py:47
+#, python-format
+msgid "%(empl_name)s from %(check_out)s"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:25
+#, python-format
+msgid "(1)\n"
+"            甲勞工於A公司之到職日期為106年2月1日，繼續工作至106年8月1日，因工作年資6個月以上未滿1年，雇主應自106年8月1日至107年1月31日止，給予3天之特別休假；屆期後（107年1月31日）未休之日數，雇主應發給工資。但經勞雇雙方協商遞延至次一年度實施者，於次一年度終結（108年1月31日）或契約終止仍未休之日數，雇主應發給工資。\n"
+"            甲勞工如107年2月1日仍在職，因年資屆滿1年，自107年2月1日至108年1月31日，可另排定特別休假7天。縱若勞工於107年12月31日離職，第1年7天特別休假之請休權利及天數，不受影響；契約終止而未休之日數，雇主應發給工資。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:9
+#, python-format
+msgid "(1) 6個月以上1年未滿者，3日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:30
+#, python-format
+msgid "(2)\n"
+"            乙勞工於B公司之到職日期為104年9月1日，繼續工作至105年8月31日屆滿1年，雇主應自105年9月1日給予第1年7天之特別休假；如勞工於105年10月1日起育嬰留職停薪6個月，並自106年4月1日復職，第1年7天之特別休假請休權利及天數，不受影響。至於第2年之特別休假，因留職停薪期間得不併入工作年資計算，事業單位應於勞工復職後工作，加計留職停薪前之工作年資，合計滿2年之翌日給予特別休假；即雇主應自107年3月1日至108年2月28日止，給予第2年10天之特別休假；屆期後未休之日數，雇主應發給工資。但經勞雇雙方協商遞延至次一年度實施者，於次一年度終結或契約終止仍未休之日數，雇主應發給工資。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:11
+#, python-format
+msgid "(2) 1年以上2年未滿者，7日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:13
+#, python-format
+msgid "(3) 2年以上3年未滿者，10日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:15
+#, python-format
+msgid "(4) 3年以上5年未滿者，每年14日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:17
+#, python-format
+msgid "(5) 5年以上10年未滿者，每年15日。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:19
+#, python-format
+msgid "(6) 10年以上者，每1年加給1日，加至30日為止。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:6
+#, python-format
+msgid "1. 採行週年制之特別休假，依所填受僱日期及給假年份計算日數。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:16
+#, python-format
+msgid "100米"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:8
+#, python-format
+msgid "2. 適用勞動基準法之事業單位，依勞動基準法第38條第1項規定，勞工在同一雇主或事業單位，繼續工作滿一定期間者，應依下列規定給予特別休假："
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:19
+#, python-format
+msgid "200米"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:21
+#, python-format
+msgid "3. 勞工之特別休假，因年度終結或契約終止而未休之日數，雇主應發給工資。但年度終結未休之日數，經勞雇雙方協商遞延至次一年度實施者，於次一年度終結或契約終止仍未休之日數，雇主應發給工資。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:23
+#, python-format
+msgid "300米"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:22
+#, python-format
+msgid "4. 依勞動基準法第84條之2規定，勞工工作年資自受僱之日起算。勞工留職停薪期間，得不併入工作年資計算。惟如勞資雙方對於留職停薪期間年資計算另有約定，可從其約定。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:24
+#, python-format
+msgid "5. 範例"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:34
+#, python-format
+msgid "6. 如有勞動基準法適用日期疑問，參閱歷次擴大適用公告，或電洽本機關免付費電話0800085151諮詢。"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:35
+#, python-format
+msgid "7. 服務年資與特別休假日數對照表"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.res_config_settings_view_form_themes
+msgid "<i class=\"material-icons\" style=\"margin-left: -4px;font-size:20px\">description</i>"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_amap
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_gmaps
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_overtime
+#: model:ir.actions.client,name:hr_attendance_extend.hr_attendance_action_punch_time
+#: model:ir.model,name:hr_attendance_extend.model_hr_attendance
+msgid "Attendance"
+msgstr "考勤"
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_base
+msgid "Base"
+msgstr "基數"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_employee.py:57
+#: code:addons/hr_attendance_extend/models/hr_employee.py:86
+#, python-format
+msgid "Cannot perform check in or check out on multiple employees."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_employee.py:73
+#: code:addons/hr_attendance_extend/models/hr_employee.py:100
+#, python-format
+msgid "Cannot perform check out on %(empl_name)s, could not find corresponding check in. Your attendances have probably been modified manually by human resources."
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__check_in
+msgid "Check In"
+msgstr "簽到"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/sql_ser_config.py:69
+#, python-format
+msgid "Choose"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:27
+#, python-format
+msgid "Click to"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置設定"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/sql_ser_config.py:43
+#, python-format
+msgid "Connection Test Succeeded!"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__create_uid
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__create_uid
+msgid "Created by"
+msgstr "創建者"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__create_date
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__create_date
+msgid "Created on"
+msgstr "創建時間"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "Delay"
+msgstr "遲到"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "Delay,Leave early"
+msgstr "遲到,早退"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "Delay,No check-out"
+msgstr "遲到,未刷卡"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__display_name
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_hr_employee
+msgid "Employee"
+msgstr "員工"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__leave_early_time
+msgid "Excused(min)"
+msgstr "早退(分)"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__id
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config____last_update
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__write_uid
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__write_uid
+msgid "Last Updated by"
+msgstr "最後更新人"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__write_date
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__late_time
+msgid "Late(min)"
+msgstr "遲到(分)"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "Leave early"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,source:0
+msgid "Machine"
+msgstr "卡鐘"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "No check-in"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "No check-in,Leave early"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "No check-in,No check-out"
+msgstr "無上班卡,無下班卡"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_abnormal:0
+msgid "No check-out"
+msgstr "無下班卡"
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_type:0
+msgid "Normal"
+msgstr "正常班"
+
+#. module: hr_attendance_extend
+#: selection:sql.config,odbc:0
+msgid "ODBC Driver 17 for SQL Server"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__odbc
+msgid "ODBC 驅動程式"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: selection:hr.attendance,work_type:0
+msgid "Overtime"
+msgstr "加班"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__seniority
+msgid "Seniority"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__work_type
+msgid "Shift"
+msgstr "班別"
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:26
+#, python-format
+msgid "Sign in"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:24
+#, python-format
+msgid "Sign out"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__source
+msgid "Source"
+msgstr "來源"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_vacation_days_comparison__value
+msgid "Value"
+msgstr "價值"
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:22
+#, python-format
+msgid "Want to check out?"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:30
+#, python-format
+msgid "Warning : Your user should be linked to an employee to use attendance. Please contact your administrator."
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:21
+#, python-format
+msgid "Welcome!"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__work_abnormal
+msgid "Work abnormal"
+msgstr "異常狀態"
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__working_hours
+msgid "Working hours(min)"
+msgstr "工作時數(分)"
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/hr_employee.py:24
+#, python-format
+msgid "Wrong PIN"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:28
+#, python-format
+msgid "check in"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:27
+#, python-format
+msgid "check out"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__check_in_issue
+msgid "check_in_issue"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_attendance__check_out_issue
+msgid "check_out_issue"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "e.g. 1433"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "e.g. 192.168.x.x"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "e.g. sa"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:10
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:20
+#, python-format
+msgid "favorite"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:38
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:46
+#, python-format
+msgid "hihi"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: code:addons/hr_attendance_extend/models/sql_ser_config.py:40
+#, python-format
+msgid "msg"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_sql_config
+msgid "sql_config"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model,name:hr_attendance_extend.model_vacation_days_comparison
+msgid "vacation days comparison table"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:39
+#, python-format
+msgid "上班打卡"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__server
+msgid "伺服器"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__username
+msgid "使用者名稱"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_employee__due_date
+msgid "到職日"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/attendance.xml:27
+#: model:ir.ui.menu,name:hr_attendance_extend.menu_hr_attendance_overtime
+#, python-format
+msgid "加班"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:21
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:47
+#, python-format
+msgid "加班打卡"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.res_config_settings_view_form_themes
+msgid "台灣勞工局特休假天數對照表"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__syncing
+msgid "同步中"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__name
+msgid "名稱"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.ui.menu,name:hr_attendance_extend.menu_hr_attendance_ex_amap
+msgid "地圖"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__password
+msgid "密碼"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/amap.xml:11
+#, python-format
+msgid "打卡範圍"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:71
+#, python-format
+msgid "更新表格"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/punch_time.xml:11
+#, python-format
+msgid "正常班打卡"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.SQL_ser_config_form_themes
+msgid "測試連線"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:52
+#, python-format
+msgid "特別休假日數勞工服務年資"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:53
+#, python-format
+msgid "現行規定"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_hr_employee__machine_id
+msgid "考勤機ID"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: sql_constraint:hr.employee:0
+msgid "考勤機ID 編號已經有其他員工使用,不可以重複！"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:5
+#, python-format
+msgid "說明："
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model_terms:ir.ui.view,arch_db:hr_attendance_extend.res_config_settings_view_form_themes
+msgid "資料來源:勞工局網站"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__database
+msgid "資料庫"
+msgstr ""
+
+#. module: hr_attendance_extend
+#: sql_constraint:sql.config:0
+msgid "資料庫同步只能設定一台"
+msgstr ""
+
+#. module: hr_attendance_extend
+#. openerp-web
+#: code:addons/hr_attendance_extend/static/src/xml/vacations_days_comparison.xml:36
+#, python-format
+msgid "資料最近更新日期："
+msgstr ""
+
+#. module: hr_attendance_extend
+#: model:ir.model.fields,field_description:hr_attendance_extend.field_sql_config__port
+msgid "連接阜"
+msgstr ""
+

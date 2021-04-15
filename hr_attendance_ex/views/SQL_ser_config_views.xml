@@ -1,0 +1,53 @@
+<odoo>
+    <data>
+        <record id="SQL_ser_config_list_themes" model="ir.ui.view">
+            <field name="name">SQL.ser.config.list</field>
+            <field name="model">sql.config</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="odbc"/>
+                    <field name="server"/>
+                    <field name="database"/>
+                    <field name="syncing"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="SQL_ser_config_form_themes" model="ir.ui.view">
+            <field name="name">SQL.ser.config.form</field>
+            <field name="model">sql.config</field>
+            <field name="arch" type="xml">
+                <form>
+                    <!--                    <group>-->
+                    <!--                        <label for="external_report_layout_id" string="Template" colspan="2" />-->
+                    <!--                        <field name="external_report_layout_id" colspan="2" nolabel="1"-->
+                    <!--                                class="report_layout_container"-->
+                    <!--                                widget="report_layout" options="{-->
+                    <!--                                    'field_image': 'preview_image',-->
+                    <!--                                    'field_binary': 'preview_pdf'-->
+                    <!--                                }"/>-->
+                    <!--                    </group>-->
+                    <sheet>
+                        <group>
+                            <field name="name" required="True"/>
+                            <field name="odbc"/>
+                            <field name="server" placeholder="e.g. 192.168.x.x"/>
+                            <field name="port" placeholder="e.g. 1433"/>
+                            <field name="database"/>
+                            <field name="username" placeholder="e.g. sa"/>
+                            <field name="password" password="True"/>
+                            <field name="syncing"/>
+<!--                            <field name="script"/>-->
+                        </group>
+                        <group>
+                            <button string="測試連線" name="test_connection" class="btn btn-primary" type="object"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
+
+

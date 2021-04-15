@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* mc_aboutcompany
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-07 07:13+0000\n"
+"PO-Revision-Date: 2019-08-07 07:13+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mc_aboutcompany
+#. openerp-web
+#: code:addons/mc_aboutcompany/static/src/xml/about_template.xml:13
+#, python-format
+msgid "&nbsp;"
+msgstr ""
+
+#. module: mc_aboutcompany
+#: model:ir.actions.client,name:mc_aboutcompany.action_custom_page
+#: model:ir.ui.menu,name:mc_aboutcompany.menu_root_custom_page
+msgid "About MC"
+msgstr "關於微京"
+
+#. module: mc_aboutcompany
+#: model:res.groups,name:mc_aboutcompany.group_AboutCompany
+msgid "AboutCompany"
+msgstr ""
+
+#. module: mc_aboutcompany
+#: model:ir.model,name:mc_aboutcompany.model_base
+msgid "Base"
+msgstr "基數"
+
+#. module: mc_aboutcompany
+#. openerp-web
+#: code:addons/mc_aboutcompany/static/src/xml/about_template.xml:33
+#, python-format
+msgid "Copyright 2019 The Micorconverge Company Ltd. All rights reserved."
+msgstr "版權所有　2019 微京信息技術股份有限公司　保留所有權利。"
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany__description
+msgid "Description"
+msgstr "描述"
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany__id
+msgid "ID"
+msgstr ""
+
+#. module: mc_aboutcompany
+#. openerp-web
+#: code:addons/mc_aboutcompany/static/src/xml/about_template.xml:10
+#, python-format
+msgid "Icon"
+msgstr ""
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: mc_aboutcompany
+#. openerp-web
+#: code:addons/mc_aboutcompany/static/src/xml/about_template.xml:31
+#, python-format
+msgid "Micorconverge Technology CO.,LTD"
+msgstr "微京信息技術股份有限公司"
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany__name
+msgid "Name"
+msgstr "名稱"
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany__value
+msgid "Value"
+msgstr "價值"
+
+#. module: mc_aboutcompany
+#: model:ir.model.fields,field_description:mc_aboutcompany.field_mc_aboutcompany__value2
+msgid "Value2"
+msgstr "值2"
+
+#. module: mc_aboutcompany
+#: model:ir.model,name:mc_aboutcompany.model_mc_aboutcompany
+msgid "mc_aboutcompany"
+msgstr ""
+

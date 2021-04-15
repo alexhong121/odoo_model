@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="web_setting_Theme">
+    <!-- Setting 關閉 分享社群 -->
+    <t t-extend="DashboardShare">
+        <t t-jquery="div.text-center,div.o_web_settings_dashboard_share" t-operation="inner"> 
+            <t t-set="server_version" t-value="widget.data.server_version"/>
+            <t t-set="debug" t-value="widget.data.debug"/>
+            <t t-set="demo_active" t-value="widget.data.demo_active"/>
+            <a t-if="debug != true" class="oe_activate_debug_mode float-right" href="?debug" >Activate the developer mode</a>
+            <br t-if="debug != true"/>
+            <a t-if="debug != 'assets'" class="oe_activate_debug_mode float-right" href="?debug=assets" >Activate the developer mode (with assets)</a>
+            <br t-if="debug != 'assets'"/>
+            <a t-if="debug != false" class="oe_activate_debug_mode float-right" href="/web" >Deactivate the developer mode</a>
+            <br t-if="debug != false"/>
+            <a t-if="(debug) and !(demo_active)" class="oe_activate_debug_mode float-right o_web_settings_dashboard_force_demo" href="#">Load demo data</a>
+        </t>
+    </t>
+
+</templates>

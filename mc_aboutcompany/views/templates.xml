@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+		<!-- 引入head css js 檔案 -->
+		<template id="assets_backend" name="Backend Theme" inherit_id="web.assets_backend">
+			<xpath expr="." position="inside">
+				<script type="application/javascript" src="/mc_aboutcompany/static/src/js/about.js"/>
+				<script type="application/javascript" src="/mc_aboutcompany/static/src/js/res_config_settings.js"/>
+
+            	<link href="/mc_aboutcompany/static/src/scss/about.scss" rel="stylesheet" type="text/scss" />
+			</xpath>
+		</template>
+    </data>
+</odoo>

@@ -1,0 +1,102 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+.template {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container_map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.active {
+  visibility: visible;
+}
+
+.punch_time {
+}
+
+//.cus-button {
+//  height: 200px;
+//  width: 200px;
+//  border-radius: 50%;
+//  font-size: 32px;
+//  display: flex;
+//  justify-content: center;
+//  flex-direction: column;
+//}
+
+.tab_bar-page{
+  position: absolute;
+  width: 200%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  .content {
+    //visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+  }
+}
+.map_table {
+  position: relative;
+  width: 100%;
+  borders: 1px solid;
+
+}
+
+.map_table_container {
+  display: none;
+  position: absolute;
+  top: 0;
+  button:0;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  background-color: #4c4a4a;
+  z-index: 1000;
+}
+.map_active{
+  display: block;
+}
+
+.map_button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  z-index: 170;
+}
+.map_settingRange{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

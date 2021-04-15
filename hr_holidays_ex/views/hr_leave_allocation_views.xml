@@ -1,0 +1,102 @@
+<odoo>
+    <data>
+        <record id="hr_leave_allocation_view_form" model="ir.ui.view">
+            <field name="name">hr_holidays_extend.hr.leave.allocation.view.form</field>
+            <field name="model">hr.leave.allocation</field>
+            <field name="inherit_id" ref="hr_holidays.hr_leave_allocation_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="attrs">
+                        {'readonly': [('state', 'not in', ('draft', 'confirm'))],'required':True}
+                    </attribute>
+                </xpath>
+                <xpath expr="//label[@for='number_of_days']" position="attributes">
+                    <attribute name="attrs">
+                        {'invisible': [('holiday_type','!=','employee'),('validity_interval_type','=','due_date')]}
+                    </attribute>
+                </xpath>
+                <xpath expr="//field[@name='number_of_days_display']" position="attributes">
+                    <attribute name="attrs">
+                        {'readonly': ['|',('validity_interval_type','=','due_date'),'|', ('type_request_unit', '=',
+                        'hour'), ('state', 'not in', ('draft',
+                        'confirm'))],'invisible': [('number_of_days_hide','=',True)]}
+                    </attribute>
+                </xpath>
+                <xpath expr="//group/group/div[1]/span[1]" position="attributes">
+                    <attribute name="attrs">
+                        {'invisible': [('number_of_days_hide','=',True)]}
+                    </attribute>
+                </xpath>
+                <xpath expr="//field[@name='number_of_hours_display']" position="attributes">
+                    <attribute name="attrs">
+                        {'readonly': ['|',('validity_interval_type','=','due_date'),'|', ('type_request_unit', '!=',
+                        'hour'), ('state', 'not in', ('draft',
+                        'confirm'))],'invisible': [('number_of_hours_hide','=',True)]}
+                    </attribute>
+                </xpath>
+                <xpath expr="//group/group/div[1]/span[2]" position="attributes">
+                    <attribute name="attrs">
+                        {'invisible': [('number_of_hours_hide','=',True)]}
+                    </attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='holiday_status_id']" position="after">
+                    <field name="validity_start_year"
+                           attrs="{'invisible':[('validity_interval_type','!=','due_date')],'readonly': [('state', 'not in', ('draft',
+                        'confirm'))]}"/>
+                    <label for="validity_start" string="有效期間"/>
+                    <div>
+                        <div class="o_row o_row_readonly o_hr_holidays_dates">
+                            <field name="validity_start_display" class="oe_inline"
+                                   attrs="{'readonly':['|',('validity_interval_type','=','due_date'),('state', 'not in', ('draft',
+                        'confirm'))]}"/>
+                            <field name="validity_start" class="oe_inline"
+                                   invisible="1"/>
+                            　
+                            <span class="oe_inline">
+                                到
+                            </span>
+                            <field name="validity_stop_display" class="oe_inline"
+                                   attrs="{'readonly':['|',('validity_interval_type','=','due_date'),('state', 'not in', ('draft',
+                        'confirm'))]}"/>
+                            <field name="validity_stop" class="oe_inline" invisible="1"/>
+
+                        </div>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='accrual']" position="before">
+                    <label for="job_tenure_display" string="年資"
+                           attrs="{'invisible': ['|',('validity_interval_type', '=','hr_leave_allocation'),('holiday_type','!=','employee')]}"/>
+                    <div attrs="{'invisible': ['|',('validity_interval_type', '=','hr_leave_allocation'),('holiday_type','!=','employee')]}">
+                        <field name="validity_interval_type" class="oe_inline" invisible="1"/>
+                        <field name="number_of_days_hide" class="oe_inline" invisible="1"/>
+                        <field name="number_of_hours_hide" class="oe_inline" invisible="1"/>
+
+                        <field name="holiday_type" class="oe_inline" invisible="1"/>
+                        <div class="o_row o_row_readonly o_hr_holidays_dates">
+                            <field name="job_tenure_display" class="oe_inline"/>
+                            <field name="job_tenure" class="oe_inline" invisible="1"/>
+                            <span class="oe_inline">
+                                年
+                            </span>
+                        </div>
+                    </div>
+                </xpath>
+
+            </field>
+        </record>
+
+        <record id="hr_leave_allocation_view_kanban" model="ir.ui.view">
+            <field name="name">hr.leave.allocation.view.kanban</field>
+            <field name="model">hr.leave.allocation</field>
+            <field name="inherit_id" ref="hr_holidays.hr_leave_allocation_view_kanban"/>
+            <field name="arch" type="xml">
+                <xpath expr="//kanban[hasclass('o_kanban_mobile')]" position="attributes">
+                    <attribute name="create">1</attribute>
+                </xpath>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>

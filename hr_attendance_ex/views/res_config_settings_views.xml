@@ -1,0 +1,72 @@
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form_themes" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.hr.attendance.extend</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="hr_attendance.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@data-string='Attendances']" position="inside">
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-12 col-lg-6 o_setting_box">
+                            <div class="o_setting_left_pane">
+                                <div>
+                                    <i class="material-icons" style="margin-left: -4px;font-size:20px">description</i>
+                                </div>
+                            </div>
+
+                            <div class="o_setting_right_pane">
+                                <button name="comparison_table" string="台灣勞工局特休假天數對照表" type="object" class="o_form_label" style="padding: 0px;border-style: none;background-color: white;"/>
+                                <div class="text-muted">
+                                    資料來源:勞工局網站
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <div id="business_documents">-->
+<!--                        <h2>打卡機資料匯進/匯出</h2>-->
+<!--                        <div class="row mt16 o_settings_container">-->
+<!--                            <div class="col-12 col-lg-6 o_setting_box">-->
+<!--                                <div class="o_setting_right_pane">-->
+<!--                                    <button name="sql_ser_config" string="SQL server 連線設定" type="object"-->
+<!--                                            class="o_form_label"-->
+<!--                                            style="padding: 0px;border-style: none;background-color: white;"/>-->
+<!--                                    <div class="text-muted">-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                            <!--                            <div class="col-12 col-lg-6 o_setting_box">-->
+                            <!--                                <div class="o_setting_right_pane">-->
+                            <!--                                    <span class="o_form_label">Document Template</span>-->
+                            <!--                                    <span class="fa fa-lg fa-building-o" title="Values set here are company-specific."-->
+                            <!--                                          aria-label="Values set here are company-specific."-->
+                            <!--                                          groups="base.group_multi_company" role="img"/>-->
+                            <!--                                    <div class="text-muted">-->
+                            <!--                                        Choose your document's header and footer layout-->
+                            <!--                                    </div>-->
+                            <!--                                    <div class="content-group">-->
+                            <!--                                        <div class="mt16" groups="base.group_no_one">-->
+                            <!--                                            <label for="external_report_layout_id" string="Template"-->
+                            <!--                                                   class="col-3 col-lg-3 o_light_label"/>-->
+                            <!--                                            <field name="external_report_layout_id" domain="[('type','=', 'qweb')]"-->
+                            <!--                                                   class="oe_inline"/>-->
+                            <!--                                        </div>-->
+                            <!--                                        <div class="mt16">-->
+                            <!--                                            <button name="change_report_template" string="Change Document Template"-->
+                            <!--                                                    type="object" class="oe_link" icon="fa-arrow-right"/>-->
+                            <!--                                            <button name="edit_external_header" string="Edit Layout" type="object"-->
+                            <!--                                                    class="oe_link" groups="base.group_no_one"/>-->
+                            <!--                                            <button name="83" string="Preview Document" type="action" class="oe_link"-->
+                            <!--                                                    groups="base.group_no_one"/>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                </div>-->
+                            <!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
+
+

@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="attendance_extend_employee_form_Themes" model="ir.ui.view">
+            <field name="name">attendance.extend.employee.form.Themes</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr_attendance.view_employee_form_inherit_hr_attendance"/>
+            <field name="arch" type="xml">
+                <!-- 員工的HR Setting 增加考勤　"到職日" -->
+                <xpath expr="//field[@name='manual_attendance']" position="after">
+                    <field name="due_date"/>
+                    <field name="machine_id"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
